@@ -1,8 +1,9 @@
 from PIL import Image
 from pytesseract import *
 
-filename = "D:\OcrData2\휴먼옛체_1.JPG"
+#traineddata ='kor2'
+filename = "D:\OcrData\가는안상수체_1.JPG"
 image = Image.open(filename)
-text = image_to_string(image, lang="kor")
+text = image_to_string(image, lang="kor2")
 
 print(text)
