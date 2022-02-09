@@ -7,7 +7,7 @@ def jaccard_similarity(x, y):
 
     return intersection_cardinality / float(union_cardinality)
 
-f1 = open("C:\\Users\\이서정\\Desktop\\POLARIS LOC\\한글\\sim\\originKorean.txt","r",encoding='UTF8')
+f1 = open("C:\\Users\\이서정\\Desktop\\POLARIS LOC\\한글\\sim\\애국가.txt","r",encoding='UTF8')
 
 origin = f1.read()
 original = list(origin)
