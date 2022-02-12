@@ -4,7 +4,7 @@ from PIL import Image
 from pytesseract import *
 
 win_name = 'scan'
-img = cv2.imread('C:\imagedata\document13.jpg')
+img = cv2.imread('C:\\imagedata\\chanel.jpg')
 cv2.imshow('original',img)
 cv2.waitKey(0)
 draw = img.copy()
@@ -76,31 +76,6 @@ cv2.imwrite('C:\\imagedata\\result.jpg',src_morphology)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-text = image_to_string(src_morphology, lang="kor")
+text = image_to_string(src_morphology, lang="Yangff")
 print(text)
 
-'''
-ret, dst = cv2.threshold(result, 160,255,cv2.THRESH_BINARY)
-cv2.imshow("binary",dst)
-cv2.waitKey(0)
-'''
-'''
-k=cv2.getStructuringElement(cv2.MORPH_RECT, (9,9))
-tophat = cv2.morphologyEx(result, cv2.MORPH_TOPHAT,k)
-blackhat= cv2.morphologyEx(result, cv2.MORPH_BLACKHAT,k)
-
-merged = np.hstack((result,tophat,blackhat))
-cv2.imshow('tophat blackhat', merged)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-'''
-'''
-
-src_filtering = cv2.bilateralFilter(result, -1, 10, 5)
-kernel = np.ones((3,1),np.uint8)
-src_morphology = cv2.morphologyEx(kernel, cv2.MORPH_OPEN, kernel)
-merged = np.hstack((result, src_morphology))
-cv2.imshow(src_morphology, merged)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-'''
