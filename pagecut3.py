@@ -26,7 +26,7 @@ cnts = sorted(cnts, key=cv2.contourArea, reverse=True)[:5]
 for c in cnts:
     peri = cv2.arcLength(c,True)
     verticles = cv2.approxPolyDP(c,0.02*peri,True)
-    if len(verticles)==4:
+    if len(verticles) == 4:
         break
 
 pts = verticles.reshape(4,2)
