@@ -1,4 +1,4 @@
-# Tesseract-OCR을 활용한 정확도 높은 한컴오피스 작성문서 인식기
+## Tesseract-OCR을 활용한 정확도 높은 한컴오피스 작성문서 인식기
 
 '''
 ## opencv, tesseract를 활용해 이미지 스캐너를 만들고 글씨를 추출해내기
