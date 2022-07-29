@@ -1,7 +1,7 @@
-## Tesseract-OCR을 활용한 정확도 높은 한컴오피스 작성문서 인식기
+# Tesseract-OCR을 활용한 정확도 높은 한컴오피스 작성문서 인식기
 
-### opencv, tesseract를 활용해 이미지 스캐너를 만들고 글씨를 추출해내기
-### 직접 학습시킨 tesseract를 사용해 기존 tesseract보다 더 정확도가 높은 OCR 검출기를 만든다
+## opencv, tesseract를 활용해 이미지 스캐너를 만들고 글씨를 추출해내기
+## 직접 학습시킨 tesseract를 사용해 기존 tesseract보다 더 정확도가 높은 OCR 검출기를 만든다
 
 * 본 프로젝트는 서울대학교 2021 POLARIS LOC Winter Intership-OCR 인턴 활동 중 진행한 프로젝트 입니다.
 
