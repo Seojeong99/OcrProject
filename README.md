@@ -19,8 +19,9 @@
  
 ## :bulb: 결과 ##
 
-* OCR의 글꼴 인식도 확인
-<br />
+* OCR의 글꼴 인식도 확인  
+
+
 ![image](https://user-images.githubusercontent.com/80324369/166236425-208a2878-e09c-4c06-abd5-28452aca089b.png)
 
 ![image](https://user-images.githubusercontent.com/80324369/166236502-bc9f1ea9-805e-45a5-b1d0-a67efbb28015.png)
