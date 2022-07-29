@@ -25,17 +25,14 @@
 ![image](https://user-images.githubusercontent.com/80324369/166236502-bc9f1ea9-805e-45a5-b1d0-a67efbb28015.png)
 
 
----------------------------------------------------------------
 * 이미지 전처리 실행
-![image](https://user-images.githubusercontent.com/80324369/166236534-fe6746c1-b01b-48dd-ae1a-6a8ecef5285a.png)
+* ![image](https://user-images.githubusercontent.com/80324369/166236534-fe6746c1-b01b-48dd-ae1a-6a8ecef5285a.png)
 
 
----------------------------------------------------------------
 * OCR 결과
-![image](https://user-images.githubusercontent.com/80324369/166236715-3a38c8ce-1d56-4b8c-91d0-325715290ffe.png)
+* ![image](https://user-images.githubusercontent.com/80324369/166236715-3a38c8ce-1d56-4b8c-91d0-325715290ffe.png)
 
 
----------------------------------------------------------------
 ## :seedling: 프로젝트 진행 과정 ##
 ![image](https://user-images.githubusercontent.com/80324369/166236784-1aecdb86-e0b9-46b3-9e79-1c68da8e74a2.png)
 
